@@ -5,3 +5,5 @@ venv_word2ipa
 .vscode
 __pycache__
 stderr.log
+build/
+word2ipa_rus.egg-info/
