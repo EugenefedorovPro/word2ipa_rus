@@ -1,2 +1,1 @@
-all_ipa_as_array_with_accents_short.pickle filter=lfs diff=lfs merge=lfs -text
 nn_training/all_ipa_as_array_with_accents_short.pickle filter=lfs diff=lfs merge=lfs -text

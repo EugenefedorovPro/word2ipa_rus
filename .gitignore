@@ -3,4 +3,4 @@ draft.ipynb
 draft_test.ipynb
 venv_word2ipa
 .vscode
-
+__pycache__
