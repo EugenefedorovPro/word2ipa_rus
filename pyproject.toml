@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=63.2.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "word2ipa_rus"
+version = "0.0.1"
+authors = [
+  { name="Eugene Proskulikov", email="eugene.proskulikov@gmail.com" },
+]
+description = "Python package to convert a russian word to IPA transcription powered by the trained neural network"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["readme", "dependencies"]
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.rst"]}
+dependencies = {file = ["requirements.txt"]}
+
+
+
+[tool.setuptools]
+include-package-data = true
+packages = ["word2ipa_rus", "word2ipa_rus.utils"]

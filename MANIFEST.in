@@ -1,1 +1,1 @@
-include put_stress_rus/model_put_stress.h5
+include word2ipa_rus/model_word2ipa_rus.h5
