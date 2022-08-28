@@ -1,5 +1,4 @@
 class WordsProcessing:
-
     @classmethod
     def word2numbers(cls, accent):
         character2number_for_stressed_words = {
