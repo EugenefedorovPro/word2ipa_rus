@@ -1,4 +1,3 @@
-import pytest
 from word2ipa_rus.utils.word_processing import WordsProcessing
 
 

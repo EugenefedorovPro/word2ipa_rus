@@ -2,6 +2,7 @@ from ipapy import UNICODE_TO_IPA
 
 
 class IpaProcessing:
+
     @classmethod
     def get_number2sign(cls):
         list_unique_unicodes = [
@@ -95,5 +96,6 @@ class IpaProcessing:
             "ʑː",
             "ˈ",
         ]
-        number2sign = dict((i, UNICODE_TO_IPA[l]) for i, l in enumerate(list_unique_unicodes, start=1))
+        number2sign = dict((i, UNICODE_TO_IPA[l])
+                           for i, l in enumerate(list_unique_unicodes, start=1))
         return number2sign

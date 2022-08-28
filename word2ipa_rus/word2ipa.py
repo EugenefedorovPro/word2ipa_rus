@@ -1,14 +1,11 @@
-# depricate tf warnings
+from pathlib import Path
 import os
-
-os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
-
+import numpy as np
 from word2ipa_rus.utils.ipa_processing import IpaProcessing
 from word2ipa_rus.utils.word_processing import WordsProcessing
-import tensorflow as tf
+
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 from tensorflow.keras.models import load_model
-import numpy as np
-from pathlib import Path
 
 # import trained model
 path_model = Path(__file__).parent / "model_word2ipa_rus.h5"
