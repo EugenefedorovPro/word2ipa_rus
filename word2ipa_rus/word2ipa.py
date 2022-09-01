@@ -10,7 +10,7 @@ from tensorflow.keras.models import load_model
 # import trained model
 path_model = Path(__file__).parent / "model_word2ipa_rus.h5"
 model_ipa = load_model(path_model)
-print("Trained Model uploaded successfully")
+print("Trained Model 'word2ipa' uploaded successfully")
 
 
 def make_array_from_word_for_model(word_stressed):
