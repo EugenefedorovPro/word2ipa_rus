@@ -1,2 +1,3 @@
+ipapy @ git+https://github.com/EugenefedorovPro/ipapy_eugene.git@1cb62fa932b0ba0dc530bde5e6469a8e70b2c820
 tensorflow==2.9.1
 numpy==1.23.1
