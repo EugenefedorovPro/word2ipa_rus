@@ -1,5 +1,5 @@
 ##############################
-put_stress_rus
+word2ipa_rus
 ##############################
 
 Python package to convert a russian word to IPA transcription (International Phonetic Alphabet) powered by the trained neural network with 0.9996 accuracy
